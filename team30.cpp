@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <windows.h>
 
 char* total, * temp;
 
@@ -143,7 +142,6 @@ int main(int argc, char** argv) {
 	fclose(out);
 	printf("\n\nFinish");
 
-	Sleep(10000);
 	return 0;
 }
 
